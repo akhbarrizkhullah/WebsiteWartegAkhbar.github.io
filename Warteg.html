@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Icon" href="asset/address.png" />
+    <title>Warteg | Akhbar</title>
+    <!-- Icon -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/Warteg.css" />
+  </head>
+  <body>
+    <!-- NAVBAR AWAL -->
+    <nav class="navbar">
+      <a href="#home" class="navbar-logo"><img src="asset/address.png" alt="" />Warteg<span>Akhbar</span>.</a>
+
+      <div class="navbar-nav">
+        <a class="nav active" href="#home">Beranda</a>
+        <a class="nav" href="#menu">Menu Kami</a>
+        <a class="nav" href="#about">Tentang Kami</a>
+        <a class="nav" href="#kontak">Kontak Kami</a>
+      </div>
+
+      <div class="navbar-icon">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-button"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="ham-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <div class="search">
+        <input type="search" id="search-box" placeholder="cari disini...">
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="asset/menu/1.jpg" alt="product 1">
+
+          <div class="detail">
+            <h3>Spicy Seafood Pasta</h3>
+            <div class="harga">
+              IDR 30K
+            </div>
+          </div>
+          <i data-feather="trash-2" class="delete"></i>
+        </div>
+        <div class="cart-item">
+          <img src="asset/menu/2.jpg" alt="product 1">
+
+          <div class="detail">
+            <h3>Salad</h3>
+            <div class="harga">
+              IDR 30K
+            </div>
+          </div>
+          <i data-feather="trash-2" class="delete"></i>
+        </div>
+        <div class="cart-item">
+          <img src="asset/menu/3.jpg" alt="product 1">
+
+          <div class="detail">
+            <h3>Beef Burger</h3>
+            <div class="harga">
+              IDR 30K
+            </div>
+          </div>
+          <i data-feather="trash-2" class="delete"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR AKHIR -->
+
+    <!-- HOME AWAL -->
+    <section class="home" id="home">
+      <video class="vidio-slides active" src="asset/slide/1.mp4" autoplay muted loop></video>
+      <video class="vidio-slides" src="asset/slide/2.mp4" autoplay muted loop></video>
+      <video class="vidio-slides" src="asset/slide/3.mp4" autoplay muted loop></video>
+      <video class="vidio-slides" src="asset/slide/4.mp4" autoplay muted loop></video>
+      <div class="content active">
+        <h1>Selamat<br /><span>Datang</span></h1>
+        <p>Selamat datang di restoran kami! Kami menawarkan hidangan lezat, suasana nyaman, <br> dan pelayanan ramah. Kami memiliki menu dengan hidangan khas yang disajikan dengan <br> bahan segar dan berkualitas tinggi</p>
+        <a href="#menu">Daftar Menu</a>
+      </div>
+      <div class="content">
+        <h1>Kaya<br /><span>Akan Rempah</span></h1>
+        <p>Rempah penting di restoran kami, memberikan cita rasa khas dan kenikmatan. Kami gunakan kayu manis, kardemom, jahe, bawang putih, dan merica, serta gabungkan bumbu unik di setiap hidangan. Kami percaya rempah tepat meningkatkan pengalaman makan pelanggan. Berusaha sajikan hidangan dengan rempah berkualitas dan tepat untuk rasa yang khas.</p>
+        <a href="#menu">Daftar Menu</a>
+      </div>
+      <div class="content">
+        <h1>Diproses<br /><span>Dengan Bahan Baku Terbaik</span></h1>
+        <p>Restoran kami hanya menggunakan bahan baku segar, berkualitas tinggi dan dipilih dengan hati-hati dari para petani lokal dan pemasok terpercaya. Kami selalu memeriksa kualitas dan kesegaran bahan baku sebelum memasaknya menjadi hidangan. Kami juga mengutamakan penggunaan bahan organik dan tanpa bahan pengawet atau kimia lainnya.</p>
+        <a href="#menu">Daftar Menu</a>
+      </div>
+      <div class="content">
+        <h1>Dimasak<br /><span>Oleh Chef Juna</span></h1>
+        <p>Di restoran kami, chef kami ahli dalam menyajikan hidangan lezat dan berkualitas tinggi. Mereka menggunakan teknik memasak modern dan bahan-bahan berkualitas tinggi. Chef kami kreatif dan senantiasa menghadirkan menu baru. Kami bangga dengan dedikasi mereka dalam menciptakan hidangan terbaik untuk pelanggan kami.</p>
+        <a href="#menu">Daftar Menu</a>
+      </div>
+
+      <div class="slider-navigation">
+        <div class="slider-btn active"></div>
+        <div class="slider-btn"></div>
+        <div class="slider-btn"></div>
+        <div class="slider-btn"></div>
+      </div>
+    </section>
+    <!-- HOME AKHIR -->
+
+    <!-- MENU AWAL -->
+    <section class="menu" id="menu">
+      <h2><span>Menu </span>Kami</h2>
+      <p>Restoran kami menyajikan beragam hidangan lezat dan berkualitas tinggi, termasuk menu utama seperti daging, ayam, ikan, dan pasta dengan pilihan saus dan bumbu yang berbeda. Kami juga menyediakan hidangan pembuka seperti salad, soup, dan beberapa minuman yang nikmat.</p>
+      <h4 id="makanan">Makanan</h4>
+      
+      <div class="row">
+        <div class="menu-card">
+          <img src="asset/menu/1.jpg" alt="Pasta" style="width: 200px" class="menu-card-image" />
+          <h3 class="menu-card-title">- Spicy Seafood Pasta -</h3>
+          <p class="menu-card-price">IDR 30K</p>
+          <a href="#">Pilih</a>
+        </div>
+        <div class="menu-card">
+          <img src="asset/menu/2.jpg" alt="Salad" style="width: 200px" class="menu-card-image" />
+          <h3 class="menu-card-title">- Salad -</h3>
+          <p class="menu-card-price">IDR 20K</p>
+          <a href="#">Pilih</a>
+        </div>
+        <div class="menu-card">
+          <img src="asset/menu/3.jpg" alt="Burger" style="width: 200px" class="menu-card-image" />
+          <h3 class="menu-card-title">- Beef Burger -</h3>
+          <p class="menu-card-price">IDR 30K</p>
+          <a href="#">Pilih</a>
+        </div>
+        <div class="menu-card">
+          <img src="asset/menu/4.jpg" alt="Steak" style="width: 200px" class="menu-card-image" />
+          <h3 class="menu-card-title">- Beef Steak -</h3>
+          <p class="menu-card-price">IDR 30K</p>
+          <a href="#">Pilih</a>
+        </div>
+        <div class="menu-card">
+          <img src="asset/menu/6.jpg" alt="Pizza" style="width: 200px" class="menu-card-image" />
+          <h3 class="menu-card-title">- Pizza -</h3>
+          <p class="menu-card-price">IDR 30K</p>
+          <a href="#">Pilih</a>
+        </div>
+        <div class="menu-card">
+          <img src="asset/menu/5.jpg" alt="Sandwich" style="width: 200px" class="menu-card-image" />
+          <h3 class="menu-card-title">- Sandwich -</h3>
+          <p class="menu-card-price">IDR 30K</p>
+          <a href="#">Pilih</a>
+        </div>
+        <div class="menu-card">
+          <img src="asset/menu/8.jpg" alt="Soup" style="width: 200px" class="menu-card-image" />
+          <h3 class="menu-card-title">- Mushroom Soup -</h3>
+          <p class="menu-card-price">IDR 30K</p>
+          <a href="#">Pilih</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="minuman" id="menu">
+      <h4 id="minuman">Minuman</h4>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="asset/menu/Minuman/1.jpg" alt="Ice" style="width: 200px" class="menu-card-image" />
+          <h3 class="menu-card-title">- Ice Tea -</h3>
+          <p class="menu-card-price">IDR 30K</p>
+          <a href="#">Pilih</a>
+        </div>
+        <div class="menu-card">
+          <img src="asset/menu/Minuman/2.jpg" alt="Matcha" style="width: 200px" class="menu-card-image" />
+          <h3 class="menu-card-title">- Matcha Latte -</h3>
+          <p class="menu-card-price">IDR 30K</p>
+          <a href="#">Pilih</a>
+        </div>
+        <div class="menu-card">
+          <img src="asset/menu/Minuman/3.jpg" alt="kopi" style="width: 200px" class="menu-card-image" />
+          <h3 class="menu-card-title">- Espressco -</h3>
+          <p class="menu-card-price">IDR 30K</p>
+          <a href="#">Pilih</a>
+        </div>
+    </section>
+
+    
+      
+    <section class="pesan" id="pesan">
+      <div class="form-style-2">
+        <h3>Reservasi Meja</h3>
+        <form >
+          <label for="field1"><span>Name <span class="required">*</span></span>
+            <input type="text" class="input-field" name="field1" value="" required/></label>
+          <label for="field2"><span>Email <span class="required">*</span></span>
+            <input type="text" class="input-field" name="field2" value="" required/></label>
+          <label><span>Telephone</span>
+            <input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" required/>-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4" required />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10" required /></label>
+          <label for="field4"><span>Tanggal Makan</span>
+            <input type="date" name="field4" id="" class="input-field"></label>
+          <label for="field4"><span>Jumlah Meja</span>
+            <input type="number" class="meja-field" name="" id="" min="1">
+          </label>
+        <label for="field5"><span>Message <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
+        <input type="submit" value="Kirim" onclick="myFunction()"/>
+        </form>
+        </div>
+    </section>
+    <!-- MENU AKHIR -->
+
+    <!-- TENTANG AWAL -->
+    <section class="about" id="about">
+      <h2><span>Tentang </span>Kami</h2>
+      <div class="about-us">
+        <p>Warteg Akhbar didirikan pada tanggal 13 Februari di Bekasi dengan tujuan untuk memudahkan warga Cirebon yang bekerja di sekitar wilayah tersebut untuk makan siang tanpa harus pulang ke rumah. Dengan konsep warteg atau warung tegal yang khas dengan perpaduan modern.</p>
+      </div>
+    </section>
+
+    <section class="team" id="menu">
+      <h4>Team WartegAkhbar.</h4>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="asset/about/profile/1.jpg" alt="Ice" style="width: 200px" class="menu-card-image" />
+          <h3 class="menu-card-title">Muhammad</h3>
+          <p class="menu-card-price">founder</p>
+          <ul class="sosial-media">
+            <div class="instagram-icon-team">
+              <li><a href=""><i data-feather="instagram"></i></a></li>
+            </div>
+
+            <div class="facebook-icon-team">
+              <li><a href=""><i data-feather="facebook"></i></a></li>
+            </div>
+            
+            <div class="twitter-icon-team">
+              <li><a href=""><i data-feather="twitter"></i></a></li>
+            </div>
+
+            <div class="linkedin-icon-team">
+              <li><a href=""><i data-feather="linkedin"></i></a></li>
+            </div>
+          </ul>
+        </div>
+        <div class="menu-card">
+          <img src="asset/about/profile/2.jpg" alt="Matcha" style="width: 200px" class="menu-card-image" />
+          <h3 class="menu-card-title">Akhbar</h3>
+          <p class="menu-card-price">development</p>
+          <ul class="sosial-media">
+            <div class="instagram-icon-team">
+              <li><a href=""><i data-feather="instagram"></i></a></li>
+            </div>
+
+            <div class="facebook-icon-team">
+              <li><a href=""><i data-feather="facebook"></i></a></li>
+            </div>
+            
+            <div class="twitter-icon-team">
+              <li><a href=""><i data-feather="twitter"></i></a></li>
+            </div>
+
+            <div class="linkedin-icon-team">
+              <li><a href=""><i data-feather="linkedin"></i></a></li>
+            </div>
+          </ul>
+        </div>
+        <div class="menu-card">
+          <img src="asset/about/profile/3.jpg" alt="kopi" style="width: 200px" class="menu-card-image" />
+          <h3 class="menu-card-title">Rizkhullah</h3>
+          <p class="menu-card-price">designer</p>
+          <ul class="sosial-media">
+            <div class="instagram-icon-team">
+              <li><a href=""><i data-feather="instagram"></i></a></li>
+            </div>
+
+            <div class="facebook-icon-team">
+              <li><a href=""><i data-feather="facebook"></i></a></li>
+            </div>
+            
+            <div class="twitter-icon-team">
+              <li><a href=""><i data-feather="twitter"></i></a></li>
+            </div>
+
+            <div class="linkedin-icon-team">
+              <li><a href=""><i data-feather="linkedin"></i></a></li>
+            </div>
+          </ul>
+        </div>
+    </section>
+    <!-- TENTANG AKHIR -->
+
+    <!-- KONTAK AWAL -->
+    <section id="kontak" class="kontak">
+      <h2><span>Kontak </span>Kami</h2>
+      
+      <div class="form-conten">
+        <div class="form">
+          <h3>Hubungi Kami</h3>
+
+          <form action="" class="kontak-form">
+            <input type="text" class="nama-input" placeholder="Masukan Nama"  required>
+            <input type="text" placeholder="Masukan Email" class="nama" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Tulis Masukan" class="nama" required></textarea>
+            <button type="submit" onclick="myFunction()">Kirim</button>
+          </form>
+
+        </div>
+
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3210.26522507855!2d107.29763901740989!3d-6.324972170181397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6977ed8a25f1d9%3A0xedf5c9f192abcea!2sPepes%20Net!5e0!3m2!1sid!2sid!4v1681631480003!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <section>
+      <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3>Warteg<span>Akhbar.</span></h3>
+
+            <p class="footer-links">
+                <a href="#home">Beranda</a>
+                |
+                <a href="#menu">Menu Kita</a>
+                |
+                <a href="#about">Tentang Kita</a>
+                |
+                <a href="#kontak">Kontak Kita</a>
+            </p>
+
+            <p class="footer-company-name">Copyright © 2021 <strong>WartegAkhbar.</strong> All rights reserved</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Karawang, Jawa Barat</span>
+                    Indonesia</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p><a href="mailto:ttps://wa.me/081219927168">0812-1992-7168</p></a>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:2110631250012@student.unsika.ac.id">WartegAkhbar@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Tentang Kami</span>
+                <strong>Warteg Akhbar</strong> didirikan pada 13 Feb di Bekasi untuk memudahkan warga Cirebon bekerja di wilayah tersebut makan siang tanpa harus pulang ke rumah. Konsep warteg digabung dengan modern.
+            </p>
+            <div class="footer-icons">
+              <div class="facebook-icon">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </div>
+              <div class="instagram-icon">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </div>
+              <div class="linkedin-icon">
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </div>
+              <div class="twitter-icon">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </div>
+              <div class="youtube-icon">
+                <a href="#"><i class="fa fa-youtube"></i></a>
+              </div>
+            </div>
+        </div>
+    </footer>
+    </section>
+    <!-- KONTAK AKHIR -->
+
+    <div onclick="scrollToTop()" class="scroll-top">Naik</div>
+
+
+    <!-- JS -->
+    <script src="js/Warteg.js"></script>
+
+    <!-- Icon -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
